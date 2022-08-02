@@ -1,2 +1,10 @@
 RazorWebApp/.idea/
 RazorWebApp/RazorWebApp/obj/
+RazorWebApp/RazorWebApp/bin/Debug/net6.0/appsettings.Development.json
+RazorWebApp/RazorWebApp/bin/Debug/net6.0/appsettings.json
+RazorWebApp/RazorWebApp/bin/Debug/net6.0/RazorWebApp.deps.json
+RazorWebApp/RazorWebApp/bin/Debug/net6.0/RazorWebApp.dll
+RazorWebApp/RazorWebApp/bin/Debug/net6.0/RazorWebApp.exe
+RazorWebApp/RazorWebApp/bin/Debug/net6.0/RazorWebApp.pdb
+RazorWebApp/RazorWebApp/bin/Debug/net6.0/RazorWebApp.runtimeconfig.json
+RazorWebApp/RazorWebApp/bin/Debug/net6.0/RazorWebApp.staticwebassets.runtime.json
