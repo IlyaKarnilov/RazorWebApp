@@ -28,3 +28,11 @@ body {
   font-weight: 400;
   letter-spacing: 2px;
 }
+.makeYourOwnDiv{
+  background: darkgrey;
+  margin: 0;
+}
+.makeYourOwnText{
+  margin: 50px 0 50px 0;
+  color: whitesmoke;
+}
