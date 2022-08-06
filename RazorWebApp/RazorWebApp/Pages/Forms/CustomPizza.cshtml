@@ -1,8 +1,24 @@
 ﻿@page
+@using RazorWebApp.Models
 @model RazorWebApp.Pages.Forms.CustomPizza
 
 @{
 }
-
-<a class="nav-link text-dark" asp-area="" asp-page="/Pizza">Pizza</a>
-<a class="nav-link text-dark" asp-area="" asp-page="/Checkout/Checkout">Checkout</a>
+<div class="text-center container">
+    <h1 class="text-dark fw-bold text-capitalize">Your own pizza!!!</h1>
+    <form method="post" class="mx-auto mt-5 mb-5 px-5 rounded-3 alert-dark col-8">
+        <div class="m-3">
+            <input type="text" asp-for="Pizza.PizzaName" placeholder="Give your pizza name.." style="margin: 5px"/>
+            <button class="btn btn-primary mt-1" type="submit">Order my pizza</button>
+            <br/>
+            <input type="checkbox" asp-for="Pizza.Cheese" placeholder="Cheese"/> Cheese
+            <br/>
+            <input type="checkbox" asp-for="Pizza.Meat" placeholder="Meat"/> Meat
+            <br/>
+            <input type="checkbox" asp-for="Pizza.Mushrooms" placeholder="Mushrooms"/> Mushrooms
+            <br/>
+            <input type="checkbox" asp-for="Pizza.Tomato" placeholder="Tomato"/> Tomato
+            <br/>
+        </div>
+    </form>
+</div>
